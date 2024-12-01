@@ -1,0 +1,21 @@
+.hero-section, .footer-section {
+  background: linear-gradient(300deg, #b3e5fc, #ff80ab, #ffd54f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.profile-picture-container {
+  max-width: 300px;
+}
